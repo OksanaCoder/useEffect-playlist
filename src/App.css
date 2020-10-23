@@ -1,12 +1,33 @@
-.App {
-  text-align: center;
+body {
+  background: #00cec9 !important;
 }
+.btn {
+  background:  none ;
+  border: none;
+  background-color: #81ecec !important;
+  border-radius: 50px !important;
+  padding: 5px 20px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
+.hoverEffect {  
+  
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.hoverEffect:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  
+}
+.cover_album {
+  border-radius: 30px;
+  -webkit-box-shadow: 8px 9px 14px 2px #000000; 
+  box-shadow: 8px 9px 14px 2px #000000;
+  margin-bottom: 10px;
+}
+button:focus {
+  outline: none !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
